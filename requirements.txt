@@ -15,7 +15,6 @@ pillow
 protobuf
 pydantic
 requests
-streamlit
 transformers
 transformers[sentencepiece]
 triton-windows
