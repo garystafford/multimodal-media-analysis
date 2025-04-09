@@ -135,7 +135,7 @@ def main() -> None:
         }
 
         logging.info(image_result)
-        
+
         results["descriptions"].append(image_result)
     tt1 = time.time()
     total_batch_time = round(tt1 - tt0, 3)

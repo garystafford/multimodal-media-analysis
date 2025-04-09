@@ -43,6 +43,8 @@ python -m pip install flash-attn --no-build-isolation --upgrade
 ```bat
 py check_gpu_config.py
 
+ads_batch_descriptions.py
+
 py image_batch_tagging.py
 py image_batch_translate.py
 

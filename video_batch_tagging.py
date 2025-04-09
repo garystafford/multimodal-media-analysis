@@ -48,9 +48,7 @@ def main() -> None:
     Main function to orchestrate the workflow.
     """
 
-    video_processor = VideoProcessor(
-        MODEL_NAME, TEMPERATURE, MAX_NEW_TOKENS, PROMPT
-    )
+    video_processor = VideoProcessor(MODEL_NAME, TEMPERATURE, MAX_NEW_TOKENS, PROMPT)
     containers = video_processor.load_videos(VIDEO_DIR)
 
     tags_processor = TagsProcessor()
