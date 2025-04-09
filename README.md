@@ -2,6 +2,18 @@
 
 Code for the blog post, [Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation](https://garystafford.medium.com/unlocking-insights-generative-ai-multimodal-approaches-to-media-analysis-and-language-translation-b63dd28293db): Create multilingual natural language descriptions, descriptive tags, and sentiment analyses of image, video, and digital advertising using generative AI multimodal and machine translation models.
 
+In the post, we will learn how to leverage machine learning models to batch-process collections of images, videos, and digital advertisements and generate different types of metadata:
+
+- Descriptions: Multilingual natural language descriptions of the visual asset;
+- Descriptive tags: List of unique keywords and short phrases that characterize the visual asset;
+- Sentiment analysis: Interpretation of the overall emotional tone, mood, and underlying sentiment of the visual asset;
+
+For this task, we will utilize open-weight models, all available on [Hugging Face](https://huggingface.co/), including:
+
+- Image analysis: 4-bit and 8-bit quantized versions of Meta’s Llama 3.2 11B Vision Instruct multimodal LLM;
+- Video analysis: LLaVA-Next-Video 7B fine-tuned zero-shot multimodal model with image and video understanding capabilities (no audio capabilities);
+- Machine translation: Facebook’s 200-language distilled 600M parameter variant of the NLLB-200 mixture-of-experts (MoE) machine translation model;
+
 ## Prepare Windows Environment
 
 ### Prerequisites
