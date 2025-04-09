@@ -1,6 +1,6 @@
 # Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation
 
-Code for the blog post, [Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation] (https://garystafford.medium.com/unlocking-insights-generative-ai-multimodal-approaches-to-media-analysis-and-language-translation-b63dd28293db).
+Code for the blog post, [Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation](https://garystafford.medium.com/unlocking-insights-generative-ai-multimodal-approaches-to-media-analysis-and-language-translation-b63dd28293db).
 
 ## Prepare Windows Environment
 
