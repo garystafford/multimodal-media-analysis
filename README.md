@@ -1,6 +1,6 @@
 # Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation
 
-Code for the blog post, [Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation](https://garystafford.medium.com/unlocking-insights-generative-ai-multimodal-approaches-to-media-analysis-and-language-translation-b63dd28293db).
+Code for the blog post, [Unlocking Insights: Generative AI Multimodal Approaches to Visual Media Analysis and Language Translation](https://garystafford.medium.com/unlocking-insights-generative-ai-multimodal-approaches-to-media-analysis-and-language-translation-b63dd28293db): Create multilingual natural language descriptions, descriptive tags, and sentiment analyses of image, video, and digital advertising using generative AI multimodal and machine translation models.
 
 ## Prepare Windows Environment
 
@@ -9,6 +9,8 @@ Code for the blog post, [Unlocking Insights: Generative AI Multimodal Approaches
 To follow along with this post, please make sure you have installed the free [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022) related to C++.
 
 A free Hugging Face account and [User Access Token](https://huggingface.co/docs/hub/security-tokens) are required for access. If you do not download the models in advance, they will be downloaded into the local cache the first time the application loads them.
+
+I recommend the latest version of Python 3.12 (3.12.9) for this project. There are currently known dependency conflicts with Python 3.13.
 
 ### Download and Cache Models
 
