@@ -16,7 +16,7 @@ For this task, we will utilize open-weight models, all available on [Hugging Fac
 
 ## Prepare Windows Environment
 
-### Minimum Hardware Requirement
+### Computational Requirement
 
 For the post, I hosted the models locally on an Intel Core i9 Windows 11-based workstation with a NVIDIA RTX 4080 SUPER graphics card containing 16 GB of GDDR6X memory (VRAM). Based on my experience, a minimum of 16 GB of GPU memory is required to run these models.
 
