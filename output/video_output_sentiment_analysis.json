@@ -1,0 +1,44 @@
+{
+    "sentiments": [
+        {
+            "video_file": "input\\videos\\test_video_01.mp4",
+            "video_size_mb": 7.662,
+            "video_duration_sec": 23,
+            "video_fps": 24,
+            "video_frames": 548,
+            "video_width": 1280,
+            "video_height": 720,
+            "sentiment": "The video showcases a woman with a joyful and carefree demeanor, captured in a moment of celebration or accomplishment. Her facial expressions and body language convey a sense of happiness and excitement, with her smiling and waving to the camera. The color palette is warm and inviting, with a predominance of reds, yellows, and oranges, which adds to the overall cheerful atmosphere. The visual symbolism of confetti and party decorations further emphasizes the festive mood. The narrative revolves around the woman's achievement, with the focus on her happiness and the celebration. The pacing is upbeat, with quick cuts and energetic scene changes, enhancing the celebratory mood. There are no on-screen texts or captions, and the soundtrack is not audible. The woman's emotional journey is one of joy, with no apparent conflicts or resolutions presented in the given footage. The video aims to evoke a sense of happiness and celebration, successfully conveying its intended emotional message through visual elements, narrative, and pacing.",
+            "total_processing_time_sec": 11.42
+        },
+        {
+            "video_file": "input\\videos\\test_video_02.mp4",
+            "video_size_mb": 4.581,
+            "video_duration_sec": 7,
+            "video_fps": 24,
+            "video_frames": 179,
+            "video_width": 1920,
+            "video_height": 1080,
+            "sentiment": "The video presents a professional setting where a group of individuals, including a man and a woman, are engaged in a brainstorming session. The overall emotional tone of the video is positive and collaborative, with a sense of energy and excitement. The visual elements, such as the use of a whiteboard with the word \"Startup\" written on it, and the people's body language, suggest a sense of enthusiasm and motivation. The color palette is warm, with a focus on reds and oranges, which adds to the energetic atmosphere. The man is gesturing with his hands, indicating passion and engagement in the discussion, while the woman is actively participating, contributing to the positive mood. The narrative revolves around the theme of starting a new venture, with the man and woman discussing and planning their ideas. The pacing is dynamic, with quick cuts between scenes, enhancing the sense of movement and progress. The textual elements, such as the word \"Startup\" and the use of a whiteboard, reinforce the theme and contribute to the positive sentiment.",
+            "total_processing_time_sec": 30.585
+        },
+        {
+            "video_file": "input\\videos\\test_video_03.mp4",
+            "video_size_mb": 3.289,
+            "video_duration_sec": 9,
+            "video_fps": 24,
+            "video_frames": 224,
+            "video_width": 1280,
+            "video_height": 720,
+            "sentiment": "The video presents a man engrossed in work on his laptop, with a focus on his hands typing on the keyboard. The dominant sentiment conveyed is one of concentration and dedication, as the man appears absorbed in his task. The use of close-up shots of the hands and the laptop emphasizes the importance of the work being done. The lighting is warm, creating a cozy and inviting atmosphere, which may evoke feelings of comfort and familiarity. The man's facial expressions are neutral, suggesting a sense of calm and focus. The overall emotional tone is one of productivity and determination.",
+            "total_processing_time_sec": 21.481
+        }
+    ],
+    "stats": {
+        "model": "llava-hf/LLaVA-NeXT-Video-7B-hf",
+        "temperature": 0.3,
+        "total_batch_time_sec": 63.487,
+        "total_videos": 4,
+        "average_time_per_video_sec": 15.872
+    }
+}
