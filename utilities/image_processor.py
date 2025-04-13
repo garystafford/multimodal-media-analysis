@@ -80,7 +80,7 @@ class ImageProcessor:
             ]}
         ]
         input_text = self.processor.apply_chat_template(messages, add_generation_prompt=True)
-        logging.debug(f"Input text: {input_text}")
+        logging.info
         inputs = self.processor(
             image, 
             input_text, 
