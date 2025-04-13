@@ -12,8 +12,6 @@ compressed-tensors
 ninja
 numpy
 pillow
-protobuf
-pydantic
 requests
 transformers
 transformers[sentencepiece]

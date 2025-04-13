@@ -8,8 +8,8 @@
             "video_frames": 548,
             "video_width": 1280,
             "video_height": 720,
-            "sentiment": "The video showcases a woman with a joyful and carefree demeanor, captured in a moment of celebration or accomplishment. Her facial expressions and body language convey a sense of happiness and excitement, with her smiling and waving to the camera. The color palette is warm and inviting, with a predominance of reds, yellows, and oranges, which adds to the overall cheerful atmosphere. The visual symbolism of confetti and party decorations further emphasizes the festive mood. The narrative revolves around the woman's achievement, with the focus on her happiness and the celebration. The pacing is upbeat, with quick cuts and energetic scene changes, enhancing the celebratory mood. There are no on-screen texts or captions, and the soundtrack is not audible. The woman's emotional journey is one of joy, with no apparent conflicts or resolutions presented in the given footage. The video aims to evoke a sense of happiness and celebration, successfully conveying its intended emotional message through visual elements, narrative, and pacing.",
-            "total_processing_time_sec": 11.42
+            "sentiment": "The video showcases a woman who is the central figure, and her emotional journey is the primary focus. She appears joyful and carefree, with a smile on her face and laughter, suggesting a positive and light-hearted mood. Her facial expressions and body language convey a sense of happiness, and the warm color palette and lighting contribute to this overall cheerful atmosphere. The woman's laughter and the woman's smile convey a sense of happiness and joy. The video's narrative arc is light-hearted and upbeat, with no apparent conflicts or resolutions presented. The pacing is smooth and unhurried, with no use of techniques like slow motion or quick cuts. The textual elements do not provide any sentiment information. Overall, the video's emotional tone is joyful and carefree, with the woman's expressions and the visual elements working together to create this mood. The intended emotional impact on the viewer is to evoke happiness and positivity. There are no contrasting or conflicting sentiments, and the video effectively conveys its intended emotional message through the woman's expressions and visual elements.",
+            "total_processing_time_sec": 25.14
         },
         {
             "video_file": "input\\videos\\test_video_02.mp4",
@@ -19,8 +19,8 @@
             "video_frames": 179,
             "video_width": 1920,
             "video_height": 1080,
-            "sentiment": "The video presents a professional setting where a group of individuals, including a man and a woman, are engaged in a brainstorming session. The overall emotional tone of the video is positive and collaborative, with a sense of energy and excitement. The visual elements, such as the use of a whiteboard with the word \"Startup\" written on it, and the people's body language, suggest a sense of enthusiasm and motivation. The color palette is warm, with a focus on reds and oranges, which adds to the energetic atmosphere. The man is gesturing with his hands, indicating passion and engagement in the discussion, while the woman is actively participating, contributing to the positive mood. The narrative revolves around the theme of starting a new venture, with the man and woman discussing and planning their ideas. The pacing is dynamic, with quick cuts between scenes, enhancing the sense of movement and progress. The textual elements, such as the word \"Startup\" and the use of a whiteboard, reinforce the theme and contribute to the positive sentiment.",
-            "total_processing_time_sec": 30.585
+            "sentiment": "The video showcases a group of individuals engaged in a brainstorming session, with a man and a woman as the primary focus. The dominant sentiment conveyed is one of optimism and enthusiasm, as both individuals display bright smiles and engaged body language. Their facial expressions and posture suggest a positive, collaborative atmosphere. The color palette is warm, with a predominantly yellow and orange color scheme, which contributes to the overall cheerful mood. The visual symbolism of the brainstorming session, with ideas and concepts being drawn and shared, represents the exchange of ideas and the growth of the business. The narrative arc is one of teamwork and creativity, with the man and woman working together to develop their business idea. The pacing is steady, with no sudden cuts or jumps, allowing for a smooth viewing experience. The textual elements, such as the title \"Startup\" and the on-screen captions, reinforce the theme of entrepreneurship and the beginning of a new venture. The video's intended emotional impact is to inspire and motivate viewers, encouraging them to take risks and pursue their dreams. The contrasting sentiment is the woman's momentary frustration, as she appears to be upset by something the man said, but this is quickly resolved, showing the resilience and adaptability of the team. The video effectively conveys its intended emotional message by combining visual, narrative, and textual elements to create a positive and motivating experience for the viewer.",
+            "total_processing_time_sec": 27.931
         },
         {
             "video_file": "input\\videos\\test_video_03.mp4",
@@ -30,15 +30,15 @@
             "video_frames": 224,
             "video_width": 1280,
             "video_height": 720,
-            "sentiment": "The video presents a man engrossed in work on his laptop, with a focus on his hands typing on the keyboard. The dominant sentiment conveyed is one of concentration and dedication, as the man appears absorbed in his task. The use of close-up shots of the hands and the laptop emphasizes the importance of the work being done. The lighting is warm, creating a cozy and inviting atmosphere, which may evoke feelings of comfort and familiarity. The man's facial expressions are neutral, suggesting a sense of calm and focus. The overall emotional tone is one of productivity and determination.",
-            "total_processing_time_sec": 21.481
+            "sentiment": "The video presents a scene of a person typing on a laptop, with the camera angle focused on their hands and fingers as they navigate the keyboard. The dominant sentiment in the video is one of concentration and focus, as the person appears absorbed in their work. The use of close-up shots and slow-motion effect emphasizes the precision and attention required in typing, creating a sense of calm and dedication. The color palette is warm, with a soft lighting that adds to the serene atmosphere. The person's body language is relaxed, suggesting a sense of comfort and familiarity with the task at hand. There are no explicit on-screen text or captions to provide additional sentiment. The narrative is simple, with no apparent conflicts or resolutions presented in the given footage. The pacing is steady, maintaining a rhythm that allows the viewer to focus on the action of typing without any sudden cuts or changes. Overall, the video conveys a sense of tranquility and focus, with the intended emotional impact being the portrayal of a peaceful and absorbed individual engaged in a task.",
+            "total_processing_time_sec": 24.735
         }
     ],
     "stats": {
         "model": "llava-hf/LLaVA-NeXT-Video-7B-hf",
         "temperature": 0.3,
-        "total_batch_time_sec": 63.487,
+        "total_batch_time_sec": 77.808,
         "total_videos": 4,
-        "average_time_per_video_sec": 15.872
+        "average_time_per_video_sec": 19.452
     }
 }
