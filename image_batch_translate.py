@@ -24,9 +24,7 @@ TEMPERATURE = 0.3
 MAX_NEW_TOKENS = 300
 IMAGE_DIR = "input\\images"
 OUTPUT_FILE = "output\\image_output_description_translations_4bit.json"
-PROMPT = """<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-<|image|>Analyze the given image and generate a concise description in 2-3 paragraphs. 
+PROMPT = """Analyze the given image and generate a concise description in 2-3 paragraphs. 
 Your description should capture the essence of the image, including its visual elements, colors, mood, style, and overall impact. 
 Aim for a comprehensive yet succinct narrative that gives readers a clear mental picture of the image.
 
@@ -77,7 +75,7 @@ Guidelines:
 - Limit your response to 2-3 paragraphs.
 
 Your description should weave together these elements to create a cohesive and evocative portrayal of the image, 
-allowing readers to visualize it clearly without seeing it themselves.<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+allowing readers to visualize it clearly without seeing it themselves."""
 
 
 # Configure logging

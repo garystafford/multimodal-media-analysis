@@ -72,7 +72,22 @@ class ImageProcessor:
         """
         model_device = self.model.device
         image = Image.open(image_path).convert("RGB")
-        inputs = self.processor(image, prompt, return_tensors="pt").to(model_device)
+        
+        messages = [
+            {"role": "user", "content": [
+                {"type": "image"},
+                {"type": "text", "text": prompt}
+            ]}
+        ]
+        input_text = self.processor.apply_chat_template(messages, add_generation_prompt=True)
+        logging.debug(f"Input text: {input_text}")
+        inputs = self.processor(
+            image, 
+            input_text, 
+            add_special_tokens=False,
+            return_tensors="pt"
+        ).to(model_device)
+
         return inputs
 
     def generate_response(

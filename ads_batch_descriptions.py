@@ -23,9 +23,7 @@ TEMPERATURE = 0.3
 MAX_NEW_TOKENS = 500
 IMAGE_DIR = "input\\digital_ads"
 OUTPUT_FILE = "output\\ads_output_descriptions_4bit.json"
-PROMPT = """<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-<|image|>Analyze the given advertisement and generate a concise description in a 2-3 paragraph structure. Don't use headlines or lists.
+PROMPT = """Analyze the given advertisement and generate a concise description in a 2-3 paragraph structure. Don't use headlines or lists.
 Your description should capture the essence of the ad, including its visual elements, layout, typography, copy, imagery, and overall impact. 
 Aim for a comprehensive yet succinct narrative that gives readers a clear understanding of the ad's content, style, and intended message.
 
@@ -85,7 +83,7 @@ Guidelines:
 - Limit your response to 2-3 paragraphs.
 
 Your description should weave together these elements to create a cohesive and insightful portrayal of the advertisement, 
-allowing readers to visualize it clearly and understand its key messages and strategies.<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+allowing readers to visualize it clearly and understand its key messages and strategies."""
 
 # Configure logging
 logging.basicConfig(

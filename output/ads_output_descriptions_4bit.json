@@ -2,31 +2,31 @@
     "descriptions": [
         {
             "image_file": "digital_ad_01.png",
-            "description": "\n\nThe advertisement features a prominent image of a laptop with a blue background and a gold \"S\" logo on the screen, accompanied by the text \"Laptops Powered by Snapdragon\" in black font. The ad's background is a clean white, with a subtle gray border around the edges.\n\nIn the top-right corner, a small \"X\" icon is visible, indicating that the ad is interactive. Below the title, the text \"Featuring On-Device AI for Transformative Intelligent Experiences & Generative AI\" is displayed in smaller black font, providing additional context about the product's features.\n\nThe overall design of the ad is sleek and modern, with a focus on showcasing the laptop's capabilities and the benefits of using Snapdragon technology. The use of a bold, gold logo and a clean white background creates a sense of sophistication and innovation, while the interactive \"X\" icon suggests that the ad is designed to engage the viewer and encourage them to learn more about the product.",
-            "generated_tokens": 197,
-            "description_generation_time_sec": 8.753,
-            "total_processing_time_sec": 8.781
+            "description": "The advertisement features a prominent title, \"Laptops Powered by Snapdragon,\" in bold black text, accompanied by a smaller subtitle that reads, \"Featuring On-Device AI for Transformative Intelligent Experiences & Generative AI.\" The text is presented in a clear and easy-to-read format, with the title standing out due to its size and color.\n\nThe advertisement's background is a clean white, which provides a striking contrast to the dark blue and gold color scheme of the main image. The image itself is a square graphic that occupies the top-left corner of the ad, featuring a stylized \"S\" logo in gold on a dark blue background. The logo is surrounded by a subtle grid pattern, adding texture and visual interest to the design.\n\nIn the top-right corner, a small \"X\" button is visible, indicating that the ad is likely a pop-up or interstitial ad. The overall design of the advertisement is modern and sleek, with a focus on showcasing the power and capabilities of the Snapdragon processor. The use of a clean white background and a prominent logo helps to draw the viewer's attention to the key message of the ad.",
+            "generated_tokens": 230,
+            "description_generation_time_sec": 10.785,
+            "total_processing_time_sec": 10.861
         },
         {
             "image_file": "digital_ad_02.png",
-            "description": "\n\nThe advertisement for SoundCloud, a music streaming platform, features a prominent call-to-action, urging artists to monetize their music today with Next Pro. The ad's background is a dark, blurred image of a crowd of people, with a prominent white logo of SoundCloud at the top-left corner. Below this, the text \"DON'T WAIT TO GET PAID\" and \"MONETIZE YOUR MUSIC TODAY WITH NEXT PRO\" are displayed in large white letters.\n\nA bar graph at the bottom of the ad illustrates earnings, with a total of $12,143. The graph is accompanied by a series of icons, including a lock, a dollar sign, and a person, which likely represent different features or services offered by Next Pro. The overall design of the ad is clean and modern, with a focus on conveying the benefits of using Next Pro for artists looking to monetize their music.",
-            "generated_tokens": 181,
-            "description_generation_time_sec": 7.775,
-            "total_processing_time_sec": 7.797
+            "description": "The advertisement features a prominent headline that reads, \"DON'T WAIT TO GET PAID MONETIZE YOUR MUSIC TODAY WITH NEXT PRO,\" in large white text. Below this, a bar graph displays earnings, with a notable spike in the middle, accompanied by the text \"$12,143\" in green. The background of the ad is a darkened image of a crowd of people, with a SoundCloud logo at the top and a blue \"X\" in the upper-right corner.\n\nThe ad's layout is organized around the central graph, with the headline and text positioned above it. The use of white space effectively draws attention to the graph and the key message. The overall design is clean and modern, with a clear visual hierarchy that guides the viewer's eye.\n\nThe ad's tone is professional and encouraging, with a focus on helping artists monetize their music. The use of a bar graph and specific earnings data adds a sense of credibility and authority to the message. Overall, the ad effectively communicates its key message and is likely to grab the attention of its target audience.",
+            "generated_tokens": 216,
+            "description_generation_time_sec": 9.272,
+            "total_processing_time_sec": 9.3
         },
         {
             "image_file": "digital_ad_03.png",
-            "description": "\n\nThe image depicts an advertisement for Adobe Acrobat Pro, featuring a prominent quote from Bryan, a fashion brand co-founder, that reads, \"I come up with all new ideas.\" The quote is displayed in large white text, with the brand name \"Adobe\" and product name \"Acrobat Pro\" in red and white text, respectively, at the top of the image.\n\nBelow the quote, a blue button with white text invites users to \"Try free.\" A photograph of a man wearing a baseball cap and working on a laptop computer is situated below the button. The man's face is blurred, and he is shown from the shoulders up, with the laptop screen displaying a gray background. A red and purple button labeled \"AI Assistant\" is positioned above the laptop screen, accompanied by a text box that reads, \"Give me the main points.\"\n\nThe background of the image is black, providing a clean and modern aesthetic. Overall, the advertisement effectively promotes Adobe Acrobat Pro as a tool for creative professionals, highlighting its ability to facilitate new ideas and innovation.",
-            "generated_tokens": 212,
-            "description_generation_time_sec": 9.047,
-            "total_processing_time_sec": 9.069
+            "description": "The image depicts a digital advertisement for Adobe Acrobat Pro, featuring a prominent quote from Bryan, a fashion brand co-founder, that reads, \"I come up with all new ideas.\" The quote is displayed in large white text against a black background, accompanied by a blue button labeled \"Try free\" below it.\n\nIn the center of the image, a photograph shows a man wearing a white baseball cap with a green brim and a black hoodie, sitting in front of a laptop. A red and purple button with the text \"AI Assistant\" is positioned above the laptop screen, alongside a text box that invites the viewer to \"Give me the main points.\"\n\nThe advertisement's background is a solid black color, with the Adobe logo displayed in red and white text at the top. The overall design is clean and modern, with a clear focus on promoting the product's features and encouraging the viewer to try it for free.",
+            "generated_tokens": 184,
+            "description_generation_time_sec": 8.049,
+            "total_processing_time_sec": 8.076
         }
     ],
     "stats": {
         "model": "SeanScripts/Llama-3.2-11B-Vision-Instruct-nf4",
         "temperature": 0.3,
-        "total_batch_time_sec": 25.647,
+        "total_batch_time_sec": 28.239,
         "total_images": 4,
-        "average_time_per_image_sec": 6.412
+        "average_time_per_image_sec": 7.06
     }
 }

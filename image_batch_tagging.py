@@ -24,9 +24,7 @@ TEMPERATURE = 0.5
 MAX_NEW_TOKENS = 300
 IMAGE_DIR = "input\\images"
 OUTPUT_FILE = "output\\image_output_descriptive_tags_4bit.json"
-PROMPT = """<|begin_of_text|><|start_header_id|>user<|end_header_id|>
-
-<|image|>Analyze the given image and generate a list of 15-20 descriptive tags or short phrases that capture its key elements. Consider all aspects of the image, including visual content, colors, mood, style, and composition. Your output should be a comma-delimited list.
+PROMPT = """Analyze the given image and generate a list of 15-20 descriptive tags or short phrases that capture its key elements. Consider all aspects of the image, including visual content, colors, mood, style, and composition. Your output should be a comma-delimited list.
 
 Guidelines:
 1. Cover diverse aspects: subject matter, colors, composition, lighting, style, mood, and artistic techniques.
@@ -49,7 +47,7 @@ Format your response as a single line of comma-separated tags, ordered from most
 Example output:
 sunlit forest, vibrant green foliage, misty atmosphere, dappled light, towering trees, forest floor, earthy tones, morning dew, 
 tranquil mood, nature photography, depth of field, vertical composition, organic patterns, woodland creatures, biodiversity, 
-environmental theme, soft focus background, wide-angle shot, seasonal change, ethereal quality<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
+environmental theme, soft focus background, wide-angle shot, seasonal change, ethereal quality"""
 
 # Configure logging
 logging.basicConfig(
