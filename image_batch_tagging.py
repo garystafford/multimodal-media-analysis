@@ -19,7 +19,7 @@ VISION_MODELS = [
     "SeanScripts/Llama-3.2-11B-Vision-Instruct-nf4",
     "unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit",
 ]
-MODEL_NAME = VISION_MODELS[2]
+MODEL_NAME = VISION_MODELS[1]
 TEMPERATURE = 0.5
 MAX_NEW_TOKENS = 300
 IMAGE_DIR = "input\\images"
